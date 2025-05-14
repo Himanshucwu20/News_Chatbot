@@ -25,6 +25,7 @@ project-root/
 └── README.md
 
 🔍 Features
+
 ✅ RAG-based answers using FAISS + Hugging Face + Gemini API
 
 ✅ Session management with /session, /chat, /clear_session, /history
@@ -36,6 +37,7 @@ project-root/
 ✅ Clear and Reset session options
 
 📬 API Endpoints
+
 POST /api/session – Creates a new chat session
 
 POST /api/chat – Sends a query and gets a bot response
@@ -45,6 +47,7 @@ GET /api/history/{session_id} – Retrieves session history
 POST /api/clear_session/{session_id} – Clears a session
 
 🧪 Tech Stack
+
 Layer	Tools/Technologies
 Frontend	React, Tailwind CSS, TypeScript
 Backend	FastAPI, Python
@@ -55,6 +58,11 @@ Storage (opt)	Redis (for storing session/chat)
 📸 UI Preview
 
 ![image](https://github.com/user-attachments/assets/bcd04f37-8940-41f2-80e6-f0e42499e390)
+
+![image](https://github.com/user-attachments/assets/c9f2c7b9-d498-444a-9b76-83062a8e5050)
+
+![image](https://github.com/user-attachments/assets/03ea3682-33b5-480c-91e7-9002bf1746e8)
+
 
 ✍️ Author
 Himanshu Singh
